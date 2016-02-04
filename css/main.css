@@ -15,11 +15,20 @@ a {
   color: #711f2b;
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 a:hover {
   color: #441012;
   text-decoration: underline;
+}
+
+nav ol li {
+  list-style-type: none;
+}
+
+.grow {
+  font-weight: bold;
 }
 
 img {
@@ -28,8 +37,8 @@ img {
 }
 
 figcaption {
-  font-size: 0.5rem;
   text-align: center;
+  font-style: italic;
 }
 
 main {
@@ -42,11 +51,37 @@ h2 {
   font-family: "PT Sans", sans-serif;
 }
 
+p > data {
+  font-style: italic;
+}
+
 dt {
-  font-style: oblique;
+  font-weight: bold;
   text-decoration: none;
 }
 
 small a {
   font-family: "PT Serif", serif;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+main ol {
+  list-style-type: lower-greek;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+blockquote > cite {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
 }
